@@ -1,1 +1,2 @@
 G:\Sysdev and Design\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe.config
+G:\Sysdev and Design\Conestoga-Repository\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe.config
