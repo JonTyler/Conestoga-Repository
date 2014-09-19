@@ -44,11 +44,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdvancedSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedSearch.Designer.cs">
+      <DependentUpon>AdvancedSearch.cs</DependentUpon>
+    </Compile>
     <Compile Include="AVForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AVForm.Designer.cs">
       <DependentUpon>AVForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditDemoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditDemoForm.Designer.cs">
+      <DependentUpon>EditDemoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ElectronicForm.cs">
       <SubType>Form</SubType>
@@ -61,6 +73,12 @@
     </Compile>
     <Compile Include="GeneralItemForm.Designer.cs">
       <DependentUpon>GeneralItemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="ReferenceForm.cs">
       <SubType>Form</SubType>
@@ -76,14 +94,23 @@
     <Compile Include="ResultsForm.Designer.cs">
       <DependentUpon>ResultsForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdvancedSearch.resx">
+      <DependentUpon>AdvancedSearch.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AVForm.resx">
       <DependentUpon>AVForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditDemoForm.resx">
+      <DependentUpon>EditDemoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ElectronicForm.resx">
       <DependentUpon>ElectronicForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GeneralItemForm.resx">
       <DependentUpon>GeneralItemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReferenceForm.resx">
       <DependentUpon>ReferenceForm.cs</DependentUpon>

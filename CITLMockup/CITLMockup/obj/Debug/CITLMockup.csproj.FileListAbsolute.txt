@@ -1,2 +1,18 @@
 G:\Sysdev and Design\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe.config
 G:\Sysdev and Design\Conestoga-Repository\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe.config
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe.config
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\bin\Debug\CITLMockup.exe
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\bin\Debug\CITLMockup.pdb
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.csprojResolveAssemblyReference.cache
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.AdvancedSearch.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.AVForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.ElectronicForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.GeneralItemForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.MainForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.ReferenceForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.Properties.Resources.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.ResultsForm.resources
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.csproj.GenerateResource.Cache
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.exe
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.pdb
+\\FS06D\Stu7\Home\Jtyler-cc\GitHub\Conestoga-Repository\CITLMockup\CITLMockup\obj\Debug\CITLMockup.EditDemoForm.resources

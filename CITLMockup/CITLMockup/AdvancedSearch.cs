@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace CITLMockup
 {
-    public partial class ResultsForm : Form
+    public partial class AdvancedSearch : Form
     {
-        public ResultsForm()
+        public AdvancedSearch()
         {
             InitializeComponent();
         }
 
-        private void ResultsForm_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            EditDemoForm showMe = new EditDemoForm();
-            showMe.Show();
+            ResultsForm results = new ResultsForm();
+            results.Show();
         }
     }
 }
