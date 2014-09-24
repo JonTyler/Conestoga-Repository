@@ -100,6 +100,7 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Name = "EditDemoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EditDemoForm";
             this.ResumeLayout(false);
             this.PerformLayout();
