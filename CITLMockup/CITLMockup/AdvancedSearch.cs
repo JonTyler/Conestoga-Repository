@@ -22,5 +22,11 @@ namespace CITLMockup
             ResultsForm results = new ResultsForm();
             results.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            EditDemoForm editor = new EditDemoForm();
+            editor.Show();
+        }
     }
 }

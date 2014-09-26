@@ -40,5 +40,12 @@ namespace CITLMockup
                referral.Show();
            }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ResultsForm results = new ResultsForm();
+            results.Show();
+            this.Close();
+        }
     }
 }

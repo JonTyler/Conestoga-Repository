@@ -46,6 +46,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label5
@@ -61,8 +62,9 @@
             // 
             this.textBox4.Location = new System.Drawing.Point(192, 218);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(121, 20);
+            this.textBox4.Size = new System.Drawing.Size(257, 20);
             this.textBox4.TabIndex = 18;
+            this.textBox4.Text = "12";
             // 
             // label4
             // 
@@ -77,8 +79,9 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(191, 152);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
+            this.textBox3.Size = new System.Drawing.Size(258, 20);
             this.textBox3.TabIndex = 16;
+            this.textBox3.Text = "Projector";
             // 
             // label3
             // 
@@ -93,8 +96,9 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(191, 113);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
+            this.textBox2.Size = new System.Drawing.Size(258, 20);
             this.textBox2.TabIndex = 14;
+            this.textBox2.Text = "Powerlite Home Cinema 5030UB Projector";
             // 
             // label2
             // 
@@ -110,8 +114,9 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(191, 74);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(258, 21);
             this.comboBox1.TabIndex = 12;
+            this.comboBox1.Text = "Projector";
             // 
             // label1
             // 
@@ -126,12 +131,13 @@
             // 
             this.textBox1.Location = new System.Drawing.Point(191, 36);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.Size = new System.Drawing.Size(258, 20);
             this.textBox1.TabIndex = 10;
+            this.textBox1.Text = "420";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(81, 257);
+            this.button1.Location = new System.Drawing.Point(154, 259);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 20;
@@ -140,7 +146,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(275, 257);
+            this.button2.Location = new System.Drawing.Point(348, 259);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 21;
@@ -149,16 +155,17 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(275, 299);
+            this.button3.Location = new System.Drawing.Point(348, 301);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 22;
-            this.button3.Text = "Done";
+            this.button3.Text = "Ok";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(173, 257);
+            this.button4.Location = new System.Drawing.Point(246, 259);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 23;
@@ -167,7 +174,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(173, 299);
+            this.button6.Location = new System.Drawing.Point(246, 301);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 23);
             this.button6.TabIndex = 25;
@@ -176,7 +183,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(81, 299);
+            this.button7.Location = new System.Drawing.Point(154, 301);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(75, 23);
             this.button7.TabIndex = 26;
@@ -186,24 +193,35 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(93, 187);
+            this.label6.Location = new System.Drawing.Point(84, 187);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 13);
+            this.label6.Size = new System.Drawing.Size(101, 13);
             this.label6.TabIndex = 28;
-            this.label6.Text = "Product Name";
+            this.label6.Text = "Manufacturer Name";
             // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(192, 184);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(121, 20);
+            this.textBox5.Size = new System.Drawing.Size(257, 20);
             this.textBox5.TabIndex = 27;
+            this.textBox5.Text = "Epson ";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(440, 259);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 70;
+            this.button5.Text = "Cancel";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // AVForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(415, 389);
+            this.ClientSize = new System.Drawing.Size(599, 389);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.button7);
@@ -249,5 +267,6 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Button button5;
     }
 }

@@ -33,11 +33,11 @@ namespace CITLMockup
             LibraryItem testShow = new LibraryItem();
             string bar = "______________________________________________";
 
-            testShow.itemName = "This book is full of spiders";
+            testShow.itemName = "Harry Potter and the Balance of Earth";
             testShow.ISBN = "9-999-999-9-999";
             testShow.isElectronic = false;
-            testShow.author = "Cracked";
-            testShow.publisher = "Phillips";
+            testShow.author = "Al Gore";
+            testShow.publisher = "Penguin";
             testShow.publishDate = "2013";
 
             string result = "";
@@ -45,8 +45,25 @@ namespace CITLMockup
             richTextBox1.Text = result;
 
 
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
             EditDemoForm showMe = new EditDemoForm();
             showMe.Show();
+            this.Close();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

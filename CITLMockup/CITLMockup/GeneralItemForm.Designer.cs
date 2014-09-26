@@ -57,6 +57,7 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button4
@@ -74,8 +75,9 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 37;
-            this.button3.Text = "Done";
+            this.button3.Text = "Ok";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -110,6 +112,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(121, 20);
             this.textBox4.TabIndex = 33;
+            this.textBox4.Text = "9-999-999-999-9";
             // 
             // label4
             // 
@@ -126,6 +129,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(121, 20);
             this.textBox3.TabIndex = 31;
+            this.textBox3.Text = "8.5 x 11 x 4";
             // 
             // label3
             // 
@@ -142,6 +146,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(121, 20);
             this.textBox2.TabIndex = 29;
+            this.textBox2.Text = "The Earth In Balance";
             // 
             // label2
             // 
@@ -159,6 +164,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 27;
+            this.comboBox1.Text = "Novel";
             // 
             // label1
             // 
@@ -175,6 +181,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 25;
+            this.textBox1.Text = "44";
             // 
             // checkBox1
             // 
@@ -193,6 +200,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
             this.comboBox2.TabIndex = 41;
+            this.comboBox2.Text = "Available";
             // 
             // label6
             // 
@@ -226,6 +234,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
+            this.radioButton2.Checked = true;
             this.radioButton2.Location = new System.Drawing.Point(175, 326);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(71, 17);
@@ -260,6 +269,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(121, 20);
             this.textBox5.TabIndex = 49;
+            this.textBox5.Text = "99-999-999-999-99";
             // 
             // label9
             // 
@@ -276,6 +286,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(121, 20);
             this.textBox6.TabIndex = 51;
+            this.textBox6.Text = "Penguin";
             // 
             // label10
             // 
@@ -292,6 +303,7 @@
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(121, 20);
             this.textBox7.TabIndex = 53;
+            this.textBox7.Text = "Al Gore";
             // 
             // button7
             // 
@@ -311,11 +323,21 @@
             this.button8.Text = "Add";
             this.button8.UseVisualStyleBackColor = true;
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(342, 391);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 70;
+            this.button5.Text = "Cancel";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // GeneralItemForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 525);
+            this.ClientSize = new System.Drawing.Size(429, 525);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.textBox7);
@@ -383,5 +405,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button5;
     }
 }
