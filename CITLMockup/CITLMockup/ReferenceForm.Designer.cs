@@ -109,7 +109,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(121, 20);
             this.textBox3.TabIndex = 6;
-            this.textBox3.Text = "This book is ghana blow your mind";
+            this.textBox3.Text = "This is an annotated Atlas";
             // 
             // label4
             // 
